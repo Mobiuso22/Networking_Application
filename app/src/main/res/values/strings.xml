@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Networking App</string>
+    <string name="action_settings">Settings</string>
+    <string name="get_data">Get Data</string>
+    <string name="nav_item_images">Play Video</string>
+    <string name="nav_item_location">Display Content</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

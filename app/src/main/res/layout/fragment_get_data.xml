@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:text="Please Enter the URL"
+            android:id="@+id/textView"
+            android:layout_weight="0.03" />
+
+        <EditText android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="114dp"
+            android:layout_height="28dp"
+            android:text="Submit"
+            android:id="@+id/button"
+            android:layout_gravity="right"
+            android:layout_weight="0.02" />
+    </LinearLayout>
+</FrameLayout>

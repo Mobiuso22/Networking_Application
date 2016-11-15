@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center" >
+
+    <Button
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:text="Download Zip"
+        android:id="@+id/downloadzip"
+        android:layout_gravity="left|top" />
+
+    <Button
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:text="Display Content"
+        android:id="@+id/displaycontent"
+        android:layout_gravity="right|top" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="456dp"
+        android:id="@+id/webView"
+        android:layout_gravity="left|bottom" />
+</FrameLayout>
